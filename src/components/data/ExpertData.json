@@ -1,0 +1,46 @@
+
+ [
+    {
+        "name" : "David Melvik" ,
+        "company" : "The Millennials" ,
+        "ceo" : "ABC" ,
+        "free_sessions" : 2 ,
+        "location" : "Tampa , FL , USA" ,
+        "language_known" : "Greek , English , French" ,
+        "description" : "t quasi architecto beatae vitae dicta sunt explicabo t quasi architecto beatae vitae dicta sunt explicabo t quasi architecto beatae vitae dicta sunt explicabo ." ,
+        "price" : "FREE" ,
+        "img_src" : "http://via.placeholder.com/140x100" ,
+        "rating" : 4.9 ,
+        "reviews" : 120
+    } ,
+
+    {
+        "name" : "David Melvik" ,
+        "company" : "The Millennials" ,
+        "ceo" : "ABC" ,
+        "free_sessions" : 2 ,
+        "location" : "Tampa , FL , USA" ,
+        "language_known" : "Greek , English , French" ,
+        "description" : "t quasi architecto beatae vitae dicta sunt explicabo t quasi architecto beatae vitae dicta sunt explicabo t quasi architecto beatae vitae dicta sunt explicabo ." ,
+        "price" : "FREE" ,
+        "img_src" : "http://via.placeholder.com/140x100" ,
+        "rating" : 4.9 ,
+        "reviews" : 120
+    } ,
+
+    {
+        "name" : "David Melvik" ,
+        "company" : "The Millennials" ,
+        "ceo" : "ABC" ,
+        "free_sessions" : 2 ,
+        "location" : "Tampa , FL , USA" ,
+        "language_known" : "Greek , English , French" ,
+        "description" : "t quasi architecto beatae vitae dicta sunt explicabo t quasi architecto beatae vitae dicta sunt explicabo t quasi architecto beatae vitae dicta sunt explicabo ." ,
+        "price" : "FREE" ,
+        "img_src" : "http://via.placeholder.com/140x100" ,
+        "rating" : 4.9 ,
+        "reviews" : 120
+    }
+
+    
+]
