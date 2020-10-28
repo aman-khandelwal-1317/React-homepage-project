@@ -230,4 +230,33 @@ img {
     flex-direction: row; /* Change this to 'column' to stack the links */
     margin-bottom: 1em;
   }
+
+  #main , .expert-info {
+    flex-direction: column;
+  }
+
+  #main > aside {
+    align-items: center;
+  }
+
+  .aside-card {
+    min-width: 400px;
+    align-items: center;
+  }
+
+  .expert-info > div.right-div  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .btn-container {
+    flex-wrap: nowrap;
+  }
+
+
+  article.article {
+    margin: 2rem;
+  }
 }

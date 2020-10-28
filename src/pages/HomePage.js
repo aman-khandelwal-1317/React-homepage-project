@@ -15,10 +15,17 @@ class HomePage extends React.Component {
     return (
       <div id="bodydiv">
         <header>
-          <nav className="main-nav">
+          <nav className="main-nav navbar navbar-expand-sm">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+             </button>
+             <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+            
             <div className="logo navbar-brand">
               <a href=""> Logo</a>
-            </div>
+
+            </div >
             <div className="options">
               <a className="dashboard " href="/">
                 Dashboard
@@ -37,6 +44,7 @@ class HomePage extends React.Component {
               <a className="ic2" href="">
                 <FontAwesomeIcon icon="envelope" />
               </a>
+            </div>
             </div>
           </nav>
         </header>
@@ -62,13 +70,13 @@ class HomePage extends React.Component {
                       data-width="250px"
                       data-selected-text-format="count > 2"
                     >
-                      <option data-content="<span className='badge badge-success'>Relish</span>">
+                      <option data-content="<span class='badge badge-success'>Branding</span>">
                         Branding1
                       </option>
-                      <option data-content="<span className='badge badge-success'>Relish</span>">
+                      <option data-content="<span class='badge badge-success'>Branding</span>">
                         Branding2
                       </option>
-                      <option data-content="<span className='badge badge-success'>Relish</span>">
+                      <option data-content="<span class='badge badge-success'>Branding</span>">
                         Branding3
                       </option>
                     </select>
@@ -86,13 +94,13 @@ class HomePage extends React.Component {
                       data-width="250px"
                       data-selected-text-format="count > 2"
                     >
-                      <option data-content="<span className='badge badge-success'>Relish</span>">
+                      <option data-content="<span class='badge badge-success'>Focusarea</span>">
                         Focusarea
                       </option>
-                      <option data-content="<span className='badge badge-success'>Relish</span>">
+                      <option data-content="<span class='badge badge-success'>Focusarea</span>">
                         Focusarea
                       </option>
-                      <option data-content="<span className='badge badge-success'>Relish</span>">
+                      <option data-content="<span class='badge badge-success'>Focusarea</span>">
                         Focusarea
                       </option>
                     </select>
@@ -144,6 +152,7 @@ class HomePage extends React.Component {
                       <span className="star-span">
                         <FontAwesomeIcon icon="star" />
                       </span>
+                      <span>    </span>
                       <input
                         className="ratings-checkbox"
                         type="checkbox"
